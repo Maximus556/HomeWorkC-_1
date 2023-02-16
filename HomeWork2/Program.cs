@@ -1,2 +1,21 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Задача 10: Напишите программу, которая принимает на вход 
+// трёхзначное число и на выходе показывает вторую цифру этого числа.
+// 456 -> 5
+// 782 -> 8
+// 918 -> 1
+
+// Console.Write("Введите трехзначное число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// if (number >= 100 && number <= 999)
+// {
+//     int result = (number % 100) / 10;
+//     Console.WriteLine($"Второе число от трехзначного числа {number} будет {result}");
+// } 
+// else
+// {
+//     Console.WriteLine("Введено некоректное значение, введите ТРЕХзначное число!");
+// }
+
+
+
