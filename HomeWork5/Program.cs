@@ -62,6 +62,10 @@ double[] array = new double[size];
     }
 }
 Console.WriteLine($"Исходный массив: [{String.Join("; ", array)}]");
+for (int i = 0; i < size; i++)
+    {
+        array[i] = Math.Round(array[i],0);
+    }
 double max = array[0];
 double min = array[0];
 for (int i = 0; i < size; i++)
@@ -81,4 +85,4 @@ for (int i = 0; i < size; i++)
     }
 Console.WriteLine($"Округленный массив: [{String.Join("; ", array)}]");
 Console.WriteLine($"Максимальное значение = {max}, минимальное значение = {min}");
-Console.WriteLine($"Разница между максимальным и минимальным элементов массива: {max - min}");
+Console.WriteLine($"Разница между максимальным и минимальным элементов массива: {Math.Round(max, 0) - Math.Round(min, 0)}");
