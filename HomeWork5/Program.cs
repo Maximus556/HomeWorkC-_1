@@ -58,7 +58,7 @@ double[] array = new double[size];
 {
     for (int i = 0; i < size; i++)
     {
-        array[i] = Math.Round(100 * (new Random().NextDouble()), 2);
+        array[i] = 100 * (new Random().NextDouble()), 2);
     }
 }
 Console.WriteLine($"Исходный массив: [{String.Join("; ", array)}]");
